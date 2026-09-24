@@ -120,3 +120,8 @@ div[class*="shakeReaction_"]
 div[class^="itemCard__"] > div > div[class^="body__"]:has(span[class^="promotedTagBackground__"]) {
     display: none;
 }
+
+/* Remove that gradiented annoying banner that's only used for Nitro advertisements */
+div[class*=notice_] {
+    display: none;
+}
