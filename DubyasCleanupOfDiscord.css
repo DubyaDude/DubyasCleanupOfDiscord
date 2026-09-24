@@ -50,6 +50,10 @@ li div a[href="/store"] /* Hide 'Ntiro' Tab */
 {
     display: none;
 }
+[class*="profileFrameContainer_"]
+{
+    display: none;
+}
 
 /* Avatar Decorations */
 svg[class^="avatarDecoration_"],             /* Avatar Decorations */
